@@ -1,0 +1,48 @@
+{
+    "results": [
+        {
+            "model": "embedding_bag_mlp",
+            "parameters": 323789,
+            "best_epoch": 23,
+            "epochs_completed": 28,
+            "training_time_seconds": 14.3,
+            "val_loss": 0.4835603768825531,
+            "val_accuracy": 0.872,
+            "val_macro_f1": 0.8718157236316516,
+            "val_weighted_f1": 0.8713255158448606
+        },
+        {
+            "model": "gru",
+            "parameters": 515277,
+            "best_epoch": 8,
+            "epochs_completed": 13,
+            "training_time_seconds": 14.5,
+            "val_loss": 0.49938786935806273,
+            "val_accuracy": 0.861,
+            "val_macro_f1": 0.8597323946332439,
+            "val_weighted_f1": 0.8605760614482092
+        },
+        {
+            "model": "lstm",
+            "parameters": 581325,
+            "best_epoch": 10,
+            "epochs_completed": 15,
+            "training_time_seconds": 18.5,
+            "val_loss": 0.517033474445343,
+            "val_accuracy": 0.851,
+            "val_macro_f1": 0.8512002137010724,
+            "val_weighted_f1": 0.8501879806459097
+        },
+        {
+            "model": "rnn",
+            "parameters": 383181,
+            "best_epoch": 14,
+            "epochs_completed": 19,
+            "training_time_seconds": 18.3,
+            "val_loss": 0.7268802208900451,
+            "val_accuracy": 0.806,
+            "val_macro_f1": 0.8036175976461037,
+            "val_weighted_f1": 0.8042334054497461
+        }
+    ]
+}

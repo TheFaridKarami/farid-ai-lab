@@ -1,0 +1,16 @@
+project: 
+
+ name: banking77-inent-classification
+ random_seed: 42
+
+
+data:
+
+ dataset_name: PolyAI/banking77
+ raw_dir: data/raw
+ process_dir: data/proceed
+ validation_size: 0.1
+
+
+evaluation:
+ primary_matric: f1_macro
