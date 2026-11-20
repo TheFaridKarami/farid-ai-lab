@@ -27,3 +27,9 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# Transformer training checkpoints
+artifacts/transformer/checkpoints/
+
+# Large pretrained/fine-tuned model weights
+artifacts/transformer/distilbert-banking77-best/

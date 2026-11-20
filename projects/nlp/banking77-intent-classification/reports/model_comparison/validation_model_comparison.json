@@ -1,0 +1,37 @@
+[
+  {
+    "model":"distilbert",
+    "parameters":67000000,
+    "training_time_seconds":148.9,
+    "val_accuracy":0.9170414793,
+    "val_macro_f1":0.9183210286
+  },
+  {
+    "model":"embedding_bag_mlp",
+    "parameters":323789,
+    "training_time_seconds":14.3,
+    "val_accuracy":0.872,
+    "val_macro_f1":0.8718157236
+  },
+  {
+    "model":"gru",
+    "parameters":515277,
+    "training_time_seconds":14.5,
+    "val_accuracy":0.861,
+    "val_macro_f1":0.8597323946
+  },
+  {
+    "model":"lstm",
+    "parameters":581325,
+    "training_time_seconds":18.5,
+    "val_accuracy":0.851,
+    "val_macro_f1":0.8512002137
+  },
+  {
+    "model":"rnn",
+    "parameters":383181,
+    "training_time_seconds":18.3,
+    "val_accuracy":0.806,
+    "val_macro_f1":0.8036175976
+  }
+]

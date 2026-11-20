@@ -60,7 +60,7 @@ def validate_data(df:pd.DataFrame):
 
 def split_data(
     df: pd.DataFrame,
-    validation_size: float = 0.1,
+    validation_size: float = 0.2,
     random_state: int = 42,
     
 )  -> tuple[pd.Series, pd.Series, pd.Series, pd.Series]:

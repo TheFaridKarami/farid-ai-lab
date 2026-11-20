@@ -1,0 +1,10 @@
+{
+  "model": "distilbert/distilbert-base-uncased",
+  "params_millions": 67.0,
+  "train_runtime_sec": 148.9,
+  "best_checkpoint": "/Workspace/Projects/NLP/banking77-intent-classification/artifacts/transformer/checkpoints/checkpoint-2008",
+  "val_accuracy": 0.9170414792603698,
+  "val_macro_f1": 0.9183210286300239,
+  "test_accuracy": 0.9204545454545454,
+  "test_macro_f1": 0.9203083016225829
+}
